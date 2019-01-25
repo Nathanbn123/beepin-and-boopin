@@ -5,6 +5,15 @@ body {
    background-color: #f4f4f4;
 }
 
+h1 {
+  margin-top: 15px;
+  margin-bottom: 75px;
+}
+
+h3 {
+  float: left;
+  display: inline;
+}
 
 .btn {
   background-color: gray;
@@ -14,4 +23,5 @@ img {
   height: 250px;
   width:auto;
   float: left;
+  background-color: white;
 }
