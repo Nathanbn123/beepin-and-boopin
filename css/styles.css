@@ -34,6 +34,8 @@ img {
 
 
 .output {
-  background-color: #f0f0f0;
+  background-color: #eee;
   position: fixed;
+  width: 80%;
+  height: 250px;
 }
