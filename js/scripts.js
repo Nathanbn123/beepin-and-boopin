@@ -48,7 +48,7 @@ $(document).ready(function() {
     for (var roboOut = 0; roboOut <= roboInput; roboOut += 1) {
     var roboString = roboOut.toString();
       var translated = translate(roboString);
-      $('.output').append(' '+ translated + ',');
+      $('.output').append(' '+ '"' + translated + '"' + ',');
 
     }
 
