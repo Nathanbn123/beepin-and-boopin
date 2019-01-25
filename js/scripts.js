@@ -24,7 +24,7 @@
 function translate(input) {
   if (input.includes('3')) {
        return "I'm sorry, Dave. I can't do that.";
-  }
+  } else console.log(input);
 }
 
 
