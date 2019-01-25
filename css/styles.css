@@ -1,3 +1,10 @@
+body {
+  text-align: center;
+  background-image: url(../img/cables.jpg);
+   background-size: cover;
+}
+
+
 .btn {
   background-color: gray;
 }
