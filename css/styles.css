@@ -1,10 +1,17 @@
 body {
-  text-align: center;
-  background-image: url(../img/cables.jpg);
-   background-size: cover;
+   text-align: center;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/cables.jpg);
+   background-size: cover; */
+   background-color: #f4f4f4;
 }
 
 
 .btn {
   background-color: gray;
+}
+
+img {
+  height: 250px;
+  width:auto;
+  float: left;
 }
