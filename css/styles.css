@@ -3,6 +3,8 @@ body {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/cables.jpg);
    background-size: cover; */
    background-color: #f4f4f4;
+   font-family: 'Major Mono Display', monospace;
+   font-size: 18px
 }
 
 h1 {
@@ -24,4 +26,14 @@ img {
   width:auto;
   float: left;
   background-color: white;
+}
+
+#roboForm {
+  float: right;
+}
+
+
+.output {
+  background-color: #f0f0f0;
+  position: fixed;
 }
