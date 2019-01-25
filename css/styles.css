@@ -21,17 +21,32 @@ h3 {
   background-color: gray;
 }
 
+.btn: hover{
+
+}
+
+
+.card {
+  margin-left: 35%;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
 img {
   height: 250px;
   width:auto;
-  float: left;
+
   background-color: white;
 }
 
-#roboForm {
-  float: right;
+input {
+
+
 }
 
+h5 {
+
+}
 
 .output {
   background-color: #eee;
