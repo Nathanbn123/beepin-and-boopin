@@ -1,6 +1,6 @@
 
 
-
+alert("hello!")
 
 
 
@@ -13,11 +13,13 @@
 
 
 $(document).ready(function() {
-  $("#formOne").submit(function(event) {
-
+  $("#roboForm").submit(function(event) {
+    event.preventDefault();
+    var roboInput = parseInt($('.robot').val());
+    alert(roboInput);
 
 
 
 
   });
-});  
+});
