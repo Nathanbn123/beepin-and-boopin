@@ -9,18 +9,23 @@
 // var numArray = input.map(function(number) {
 //     return
 
+// function translate(input) {
+//     if (input.includes(3))
+//       return "I'm sorry, Dave. I can't do that.";
+//     } else if (input[j] == 2) {
+//       return "Boop!";
+//     } else if (input[j] == 1) {
+//       return "Beep!";
+//     } else console.log(input)
+
+// }
+// }
+
 function translate(input) {
-  for (var j = 0; j < input.length; j += 1){
-    if (input[j] == 3) {
-      return "I'm sorry, Dave. I can't do that."
-    } else if (input[j] == 2) {
-      return "Boop!";
-    } else if (input[j] == 1) {
-      return "Beep!";
-    }
+  if (input.includes('3')) {
+       return "I'm sorry, Dave. I can't do that.";
   }
 }
-
 
 
 
@@ -34,7 +39,9 @@ $(document).ready(function() {
     event.preventDefault();
     var roboInput = parseInt($('.robot').val());
     for (var roboOut = 0; roboOut <= roboInput; roboOut += 1) {
-      translate(roboOut);
+    var roboString = roboOut.toString();
+      var translated = translate(roboString);
+      console.log(translated)
 
     }
 
