@@ -29,7 +29,7 @@ function translate(input) {
   } else if (input.includes('1')) {
       return "Beep!";
   } else {
-      return console.log(input)
+      return input
   }
 }
 
@@ -47,7 +47,7 @@ $(document).ready(function() {
     for (var roboOut = 0; roboOut <= roboInput; roboOut += 1) {
     var roboString = roboOut.toString();
       var translated = translate(roboString);
-      console.log(translated)
+      alert(translated)
 
     }
 
