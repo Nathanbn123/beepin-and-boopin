@@ -1,7 +1,14 @@
+function division(number) {
+  number / number
+}
 
+function translate(input) {
+  for (var i = 0; i < input.length; i += 1) {
+input.map(function(number) {
 
-alert("hello!")
-
+});
+};
+};
 
 
 
@@ -16,8 +23,8 @@ $(document).ready(function() {
   $("#roboForm").submit(function(event) {
     event.preventDefault();
     var roboInput = parseInt($('.robot').val());
-    alert(roboInput);
-
+    var divided = division(roboInput)
+    alert(divided)
 
 
 
