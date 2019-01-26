@@ -1,26 +1,3 @@
-
-
-// function translate(input) {
-//   for (var i = 0; i < input; i += 1) {
-//
-// });
-// };
-// };
-// var numArray = input.map(function(number) {
-//     return
-
-// function translate(input) {
-//     if (input.includes(3))
-//       return "I'm sorry, Dave. I can't do that.";
-//     } else if (input[j] == 2) {
-//       return "Boop!";
-//     } else if (input[j] == 1) {
-//       return "Beep!";
-//     } else console.log(input)
-
-// }
-// }
-
 function translate(input) {
   if (input.includes('3')) {
      return "I'm sorry, Dave. I can't do that.";
@@ -32,12 +9,6 @@ function translate(input) {
       return input
   }
 }
-
-
-
-
-
-
 
 
 $(document).ready(function() {
