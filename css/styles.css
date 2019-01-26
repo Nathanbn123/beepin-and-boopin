@@ -27,9 +27,12 @@ h3 {
 
 
 .card {
-  margin-left: 35%;
+  margin-left: 37%;
   text-align: center;
   margin-bottom: 75px;
+}
+.card-body {
+  background-color: #eee;
 }
 
 img {
@@ -40,11 +43,16 @@ img {
 }
 
 input {
-
+margin-bottom: 15px;
 
 }
 
+.btn {
+  margin: 20px;
+}
+
 h5 {
+  margin: 25px;
 
 }
 
@@ -53,4 +61,5 @@ h5 {
   position: fixed;
   width: 80%;
   height: 250px;
+  margin-right: 100px
 }
