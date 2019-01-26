@@ -10,18 +10,18 @@ _This application provides the user with the oppurtunity to chat with an actual 
 
 
 ## Specs
-* _Spec: The program returns a range of numbers from 0 to the users inputted number
-        Input: "4"
-        Output: "0, 1, 2, 3, 4"_
-* _Spec: Exception 1: The program will replace any number that contains a one(1) with "Beep!"
- 	    Input:"21"
-	    Output: "Beep!"_
-* _Spec: Exception 2: The program will replace any number that contains a two(2) with "Boop!"
-        Input: "32"
-	    Output: "Boop!"_
-* _Spec: Exception 3: The program will replace any number that contains a three(3) with "I'm sorry, Dave. I can't do that."
-	    Input: "43"
-	    Output: "I'm sorry, Dave. I can't do that."_
+* _Spec: The program returns a range of numbers from 0 to the users inputted number._
+        _Input: "4"_
+        _Output: "0, 1, 2, 3, 4"_
+* _Spec: Exception 1: The program will replace any number that contains a one(1) with "Beep!"_
+ 	    _Input:"21"_
+	    _Output: "Beep!"_
+* _Spec: Exception 2: The program will replace any number that contains a two(2) with "Boop!"_
+        _Input: "32"_
+	    _Output: "Boop!"_
+* _Spec: Exception 3: The program will replace any number that contains a three(3) with "I'm sorry, Dave. I can't do that."_
+	    _Input: "43"_
+	    _Output: "I'm sorry, Dave. I can't do that."_
 * _Spec: A user should be able to enter a new number and see new results over and over again._
     
 _The exceptions are written from least to most important. 
@@ -37,7 +37,7 @@ The first exception should apply unless the second exception does, and the same 
 
 ## Known Bugs
 
-_When fading in a dev that is already on screen, it will strangely fade out and back in._
+_There are currently no known bugs._
 
 ## Support and contact details
 _If you encounter any bugs or issues not documented during your experience, please feel free to contact me at my email: nathans-email@email.com_
