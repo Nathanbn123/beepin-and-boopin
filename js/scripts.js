@@ -10,7 +10,6 @@ function translate(input) {
   }
 }
 
-
 $(document).ready(function() {
   $("#roboForm").submit(function(event) {
     event.preventDefault();
@@ -22,8 +21,5 @@ $(document).ready(function() {
       $('.output .card-text').append(' '+ '"' + translated + '"' + ',');
 
     }
-
-
-
   });
 });
