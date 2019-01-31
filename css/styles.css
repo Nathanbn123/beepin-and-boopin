@@ -58,4 +58,5 @@ h5 {
   width: 80%;
   height: 250px;
   margin: 0 auto;
+  word-wrap: break-word
 }
