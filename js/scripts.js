@@ -46,13 +46,13 @@ function translate(input) {
 for (var i = 0; i <= input; i += 1) {
   var incrString = i.toString();
       if (incrString.includes('3')) {
-        translatedArray.push("I'm sorry, Dave. I can't do that.");
+        translatedArray.push('"' + "I'm sorry, Dave. I can't do that." + '"');
      } else if (incrString.includes('2')) {
-        translatedArray.push("Boop!");
+        translatedArray.push('"' + "Boop!" + '"');
      } else if (incrString.includes('1')) {
-         translatedArray.push("Beep!");
+         translatedArray.push('"' + "Beep!" + '"');
      } else {
-        translatedArray.push(incrString)
+        translatedArray.push('"' + incrString + '"')
      }
    }
 }
